@@ -1,7 +1,7 @@
 {
-  "name": "@unction/template",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@unction/reducevalues",
+  "version": "1.0.8",
+  "description": "A curried reduce",
   "keywords": [
     "unction",
     "functional"
@@ -45,6 +45,6 @@
     "tap": "10.3.3"
   },
   "dependencies": {
-    "ramda": "0.24.1"
+    "@unction/reducewithvaluekey": "^2.0.3"
   }
 }
