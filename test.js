@@ -1,7 +1,7 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type */
 import {test} from "tap"
 
-import reduceValues from "./"
+import reduceValues from "./source.js"
 
 test(({equal, end}) => {
   equal(
