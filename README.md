@@ -7,7 +7,7 @@
 
 > (AccumulatedType -> ValueType -> AccumulatedType) -> InitialType -> IterableType -> AccumulatedType
 
-A pretty standard `reduceValues()`, but where the `𝑓()` is unary curries.
+Reduce over a iterable's values.
 
 ``` javascript
 reduceValues(
