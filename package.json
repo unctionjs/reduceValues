@@ -49,7 +49,7 @@
     "tap": "10.3.4"
   },
   "dependencies": {
-    "@unction/reducewithvaluekey": "4.0.0"
+    "@unction/reducewithvaluekey": "4.1.0"
   },
   "nyc": {
     "require": [
