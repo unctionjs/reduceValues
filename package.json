@@ -1,6 +1,6 @@
 {
   "name": "@unction/reducevalues",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Reduce over a iterable's values",
   "keywords": [
     "unction",
