@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> (AccumulatedType -> ValueType -> AccumulatedType) -> InitialType -> FunctorType -> AccumulatedType
+> (AccumulatedType => ValueType => AccumulatedType) => InitialType => FunctorType => AccumulatedType
 
 Reduce over a iterable's values.
 
