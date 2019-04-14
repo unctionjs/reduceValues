@@ -1,7 +1,7 @@
 /* eslint-disable flowtype/require-return-type */
-import {test} from "tap"
+import {test} from "tap";
 
-import reduceValues from "./index"
+import reduceValues from "./index";
 
 test(({equal, end}) => {
   equal(
@@ -15,10 +15,10 @@ test(({equal, end}) => {
       ["a", "b", "c"]
     ),
     "./a/b/c"
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({equal, end}) => {
   equal(
@@ -36,10 +36,10 @@ test(({equal, end}) => {
       }
     ),
     "./a/b/c"
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({equal, end}) => {
   equal(
@@ -53,10 +53,10 @@ test(({equal, end}) => {
       new Map([["aaa", "a"], ["bbb", "b"], ["ccc", "c"]])
     ),
     "./a/b/c"
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({equal, end}) => {
   equal(
@@ -70,7 +70,7 @@ test(({equal, end}) => {
       new Set(["a", "b", "c"])
     ),
     "./a/b/c"
-  )
+  );
 
-  end()
-})
+  end();
+});
