@@ -51,7 +51,7 @@
     "tap": "12.6.1"
   },
   "dependencies": {
-    "@unction/reducewithvaluekey": "11.2.0",
+    "@unction/reducewithvaluekey": "11.3.0",
     "core-js": "3.0.1"
   },
   "nyc": {
