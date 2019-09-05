@@ -1,4 +1,6 @@
 import reduceWithValueKey from "@unction/reducewithvaluekey";
-export default function reduceValues (unction) {
-  return reduceWithValueKey((accumulated) => (value) => () => unction(accumulated)(value));
+import {ReducerFunctionType} from "./types";
+
+export default function reduceValues<A, B, C, D> (unction: ReducerFunctionType<A, B | C, D>) {
+  return reduceWithValueKey((accumulated: A) => (value: B | C) => () => unction(accumulated)(value));
 }
