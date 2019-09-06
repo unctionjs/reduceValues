@@ -1,7 +1,7 @@
 
 import reduceValues from "./index";
 
-test(() => {
+test("works", () => {
   expect(reduceValues(
     (accumulation) =>
       (current) =>
@@ -13,7 +13,7 @@ test(() => {
   )).toBe("./a/b/c");
 });
 
-test(() => {
+test("works", () => {
   expect(reduceValues(
     (accumulation) =>
       (current) =>
@@ -29,7 +29,7 @@ test(() => {
   )).toBe("./a/b/c");
 });
 
-test(() => {
+test("works", () => {
   expect(reduceValues(
     (accumulation) =>
       (current) =>
@@ -41,7 +41,7 @@ test(() => {
   )).toBe("./a/b/c");
 });
 
-test(() => {
+test("works", () => {
   expect(reduceValues(
     (accumulation) =>
       (current) =>
