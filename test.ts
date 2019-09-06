@@ -1,5 +1,5 @@
 
-import reduceValues from "./index.ts";
+import reduceValues from "./index";
 
 test(() => {
   expect(reduceValues(
