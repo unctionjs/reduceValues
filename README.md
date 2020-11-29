@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> ReducerFunctionType<A, B | C, D> => C => EnumerableType<A> => D
+> ReducerFunctionType<A, B | C, D> => C => Array<A> | Set<A> | RecordType<unknown, A> | string => D
 
 Reduce over a iterable's values.
 
